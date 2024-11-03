@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: harshzode/myapp-argocd-website:v5.14
+        image: harshzode/myapp-argocd-website:v5.${version}
         ports:
         - containerPort: 8080
